@@ -1,0 +1,18 @@
+#dashboard{
+    display: grid;
+    grid-template-areas: 
+        "boxes selectedStud"
+        "editName selectedStud";
+    width: 1100px;
+    height: 400px;
+    border: 1px red solid;
+}
+#studentsContainer{
+    grid-area: boxes;   
+}
+#editStudent{
+    grid-area: editName;
+}
+#selectedStudent{
+    grid-area: selectedStud;    
+}
